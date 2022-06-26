@@ -1,0 +1,55 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+	var tela = document.querySelector('canvas')	;
+	var pincel = tela.getContext('2d');
+
+	function desenhaQuadrado(cor, x, y, tx, ty) {
+
+		pincel.fillStyle = cor;
+		pincel.fillRect(x, y, tx, ty);
+		pincel.fillStroke = 'black';
+		pincel.strokeRect(x, y, tx, ty);		
+
+	}
+
+	function desenhaTriangulo(cor, xi, yi, x1, y1, x2, y2){
+
+		pincel.beginPath();
+		pincel.moveTo(xi, yi);
+		pincel.lineTo(x1, y1);
+		pincel.lineTo(x2, y2);
+		pincel.fillStyle = cor
+		pincel.fill();
+	}
+
+	function desenhaCirculo(x, y, raio, cor) {
+
+        pincel.fillStyle = cor;
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2*3.14);
+        pincel.fill();
+    }
+
+	var posicaoX = 0;
+	var posicaoY = 0;
+
+	while (posicaoX <= 600 && posicaoY <=400){
+
+		if (posicaoX < 600 && posicaoY < 400){
+
+			desenhaQuadrado('green', posicaoX, posicaoY, 50, 50);
+			posicaoX = posicaoX + 50;
+
+		} else {
+
+			posicaoY = posicaoY + 50;
+			posicaoX = posicaoX - 600;
+		}
+
+	}
+	
+
+
+</script>

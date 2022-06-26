@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script>
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var anoAtual = 2022;
+	var anoDescobrimento = 1500;
+	var mediaGeracional = 28;
+	var totalGeracoes = (anoAtual - anoDescobrimento)/mediaGeracional;
+
+
+
+	mostra("Desde 1500 já tivemos " + Math.round(totalGeracoes) + " gerações.") ;
+
+
+</script>

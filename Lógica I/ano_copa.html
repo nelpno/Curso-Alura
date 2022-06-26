@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    const date = new Date();
+    const currentYear = date.getFullYear();
+
+    var limite = parseInt(prompt("Entre com o ano limite (xxxx)"));
+
+    var anoCopa = 1930;
+
+        var verbo = mostra("Teremos");
+    
+
+    while(anoCopa <= limite) {
+        
+        mostra(verbo + " copa em "+ anoCopa);
+        anoCopa = anoCopa + 4;
+        
+        if (anoCopa <= date.getFullYear(currentYear)) {
+
+        var verbo = mostra("Teve");
+
+    }       else {
+
+                var verbo = mostra("Teremos");
+    }
+    } 
+
+    mostra("FIM");
+
+</script>
