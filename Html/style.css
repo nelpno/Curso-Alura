@@ -34,52 +34,49 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-
-.titulo-principal {
-    padding-left: 20px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-#banner {
-    width: 100%;
-}
-
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
-}
-
-h2, p, h3 {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-main ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 25%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.itens {
-    font-style: italic;
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
     font-size: 30px;
-    padding: 10px;
+    font-weight: bold;
 }
 
-.imagembeneficios {
-    width: 50%;
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco { 
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
@@ -92,4 +89,53 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    font-size: 20px;
+}
+
+select {
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
 }
