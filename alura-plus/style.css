@@ -1,3 +1,5 @@
+/* https://www.figma.com/file/SJt0i5SApLeK9k3WIOBKxv/Alura-Plus---Layout-(Copy)?node-id=1%3A77 SITE FIGMA */
+
 :root {
     --branco-principal: #FFFFFF;
     --branco-secundario: #F9F9F9;
@@ -18,6 +20,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 3em;
 }
 
 .principal {
@@ -96,6 +99,64 @@ body {
 
 .descricao__texto {
     font-size: 16px;
-    color: var(--branco-secundario);
+    color: var(--cinza-secundario);
     font-weight: 400;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    grid-column: span 3;
+}
+
+.dispositivos__imagem {
+    justify-self: center;
+}
+
+.dispositivos__nomes {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+    text-align: center;
+}
+
+.rodape__imagem {
+    justify-self: center;
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
+.rodape__lista__itens {
+    margin-right: 1em;
+}
+
+.rodape__termos {
+    font-size: 14;
+    color: var(--cinza-secundario);
+    margin: 1em 3em;
 }
