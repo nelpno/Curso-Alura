@@ -152,11 +152,17 @@ body {
 }
 
 .rodape__lista__itens {
-    margin-right: 1em;
+    margin-right: 1.5em;
 }
 
 .rodape__termos {
     font-size: 14;
     color: var(--cinza-secundario);
     margin: 1em 3em;
+}
+
+.rodape__lista__itens_links {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
 }
