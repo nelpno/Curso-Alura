@@ -41,4 +41,23 @@
     .topicos__item__lista__link {
         font-size: 24px;
     }
+
+    .topicos__lista__item:hover {
+        background-color: var(--branco);
+    }
+
+    .topicos__item__lista__link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+    }
 }
