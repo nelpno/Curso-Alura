@@ -1,0 +1,27 @@
+.sobre-nos {
+    padding: 96px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-nos__secao {
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.sobre-nos__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.sobre-nos__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    width: 791px;
+    text-align: center;
+}

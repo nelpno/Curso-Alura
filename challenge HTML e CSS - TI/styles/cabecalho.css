@@ -1,0 +1,54 @@
+.cabecalho__menu {
+    display: flex;
+    margin: 28px auto;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo__texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu__itens__link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.login__botao {
+    font-weight: 500;
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.login__botao-cadastro {
+    padding: 10px 18px;
+    color: var(--branco);
+    background: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+}

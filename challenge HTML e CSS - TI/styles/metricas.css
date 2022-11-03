@@ -1,0 +1,26 @@
+.metricas {
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    padding: 0 112px 96px;
+}
+
+.container-metricas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.metricas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+    margin-bottom: 12px;
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 8px;
+}
