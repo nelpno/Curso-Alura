@@ -1,0 +1,28 @@
+.vagas {
+    margin: 5em auto;
+    text-align: center;
+}
+
+.vagas__abertas {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+    margin-bottom: 2em;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    margin: 1em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    margin-bottom: 4em;
+}
+
