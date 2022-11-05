@@ -1,0 +1,46 @@
+.container-vagas {
+    margin: 1em 0 2em;
+}
+
+.container-job {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.titulo-secao {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-top: 1em;
+}
+
+.descricao-vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 1.5em;
+    color: var(--preto);
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.periodo-vaga {
+    display: inline-block;
+    margin-right: 1em;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.salario-vaga {
+    display: inline-block;
+    color: var(--cinza);
+    font-weight: 500;
+}
