@@ -29,6 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto desenvolvido através do challenge de 7 dias da plataforma Alura.
 
+Link para ver o site no ar: https://optimu-tech-challenge-alura-7-dias.vercel.app/
 
 ## :memo: Licença
 
