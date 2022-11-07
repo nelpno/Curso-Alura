@@ -1,0 +1,44 @@
+.testemunho {
+    margin: 0 auto 3em;
+}
+
+.testemunho__container {
+    width: 70vw;
+    background: rgba(196, 25, 25, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.container__subtexto {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.container__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.container__img {
+    margin-bottom: 1em;
+}
+
+.container__texto-nome {
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 0.8em;
+}
+
+.container__texto-job {
+    font-size: 14px;
+    color: var(--cinza);
+}
